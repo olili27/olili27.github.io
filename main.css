@@ -2,3 +2,8 @@
 background-color: blue;
 height: 50hv;
 }
+.right {
+    float: right;
+    height: 100vh;
+    background-color: red;
+}
