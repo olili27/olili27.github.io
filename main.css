@@ -1,9 +1,117 @@
-.left {
-background-color: blue;
-height: 50hv;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
-.right {
-    float: right;
-    height: 100vh;
-    background-color: red;
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 100%;
+    
 }
+
+#skills{
+
+    background: rgba(0,100,200,0.3);
+}
+.skills-content{
+    padding:20px ; 
+    margin: 20px 50px 0 50px;
+}
+#p-skills{
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.skills-header{
+    color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sub-skills{
+    padding: 10px;
+}
+#about-me{
+    height: 40vh;
+
+    max-width: 1000px;
+
+}
+#brief-profile{
+    margin: 20px 15px;
+    width: 100%;
+}
+#my-name{
+    color: #fff;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+}
+
+.nav-bar{
+    background: rgba(0,50,100,0.9);
+    display: block;
+    height: 60vh;
+    padding: 20px;
+}
+.nav-bar ul{
+    text-align: center;
+    
+}
+.nav-bar ul li{
+    display: inline;
+    padding: 10px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding: 0 30px;
+}
+.nav-bar ul li a:hover, #active{
+    text-decoration: underline;
+}
+.img-olili{
+    position: relative;
+    text-align: center;
+    bottom:-5vh ;
+}
+.img-olili img{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+#about-me{
+    margin: 20px 50px;
+    padding: 20px;
+}
+#greet{
+    margin-right: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+footer{
+    background:  rgba(0,100,200,0.7);
+    height: 40vh;
+}
+.footer-footer{
+
+    background: rgba(0,50,100,0.9);
+    height: 15vh;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    
+}
+.footer-footer p{
+    font-size: 14px;
+}
+.footer-down{
+    margin: 0 50px 50px;
+}
+
