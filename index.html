@@ -3,56 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timothy Olili - Portfolio</title>
+    <title> Timothy Olili - Portfolio</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div>
-        <nav>
+    <div class="all-content" >
+        <nav class="nav-bar">
             <ul>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#skills">Interests/Tools & Frameworks</a></li>
-                <li><a href="">Contact me</a></li>
+                <li><a href="#greet" id="active">About me</a></li>
+                <li><a href="#p-skills">Interests/Tools & Frameworks</a></li>
+                <li><a href="#contact">Contact me</a></li>
             </ul>
+            <div class="img-olili">
+                <img src="./me.jpg" alt="Timothy Olili">
+                <h1 id="my-name">Timothy Olili</h1>
+            </div>
         </nav>
-        <div class="img-olili">
-            <img src="" alt="Timothy Olili">
-        </div>
-        <div>
+        
+        <div class="contain-rest">
             <main id="about-me">
-                <p id="name">Hello, <br> my name is Olili Timothy.</p>
-                <p id="brief-profile">I am an aspiring software developer particulary desiring to specialise in full-stack development. I am currently still a student at <strong>Mbarara University of Science and Technology</strong>(MUST) which I joined in the academic year 2019/2020.
-                <p>At MUST, I am under the <em>Faculty of Applied Sciences and Technology</em>(FAST) undertaking a Bachelor's Degree in Computer Engineering. I have been involved in quite a number of faculty projects enabling me get equiped with vast hands on experince along with scripting and programming languages <small>(see below)</small> . </p>
-                </p>
+                <p id="greet">Hello, </p>
+                <div id="brief-profile">
+                    <p >I am an aspiring software developer particulary desiring to specialise in full-stack development. I am currently still a student at <strong>Mbarara University of Science and Technology</strong>(MUST) which I joined in the academic year 2019/2020.
+                    <p>At MUST, I am under the <em>Faculty of Applied Sciences and Technology</em>(FAST) undertaking a Bachelor's Degree in Computer Engineering. I have been involved in quite a number of faculty projects enabling me get equiped with vast hands on experince along with scripting and programming languages <small>(see below)</small> . </p>
+                    </p>
+                </div>
             </main>
             <section id="skills">
-                <p id="p-skills">skills and some tools/frameworks I work with</p>
-                <div id="backend">
-                    <p id="p-backend">Back-end</p>
-                    <ul>
-                        <li>Django</li>
-                        <li>Flask</li>
-                        <li>FastAPI</li>
-                        <li>Sping-boot</li>
-                    </ul>
+                <div class="skills-content">
+                    <p id="p-skills">skills and some tools/frameworks I work with</p>
+                    <div class="sub-skills">
+                        <p class="skills-header">Back-end</p> 
+                        <ul>
+                            <li>Django</li>
+                            <li>Flask</li>
+                            <li>FastAPI</li>
+                            <li>Sping-boot</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sub-skills">
+                        <p class="skills-header">Front-end</p>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>ReactJS</li>
+                            <li>AngularJS</li>
+                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="sub-skills">
+                        <p class="skills-header">Tools</p>
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Arduino Board</li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="frontend">
-                    <p class="" id="frontend">Front-end</p>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>ReactJS</li>
-                        <li>AngularJS</li>
-                        <li>Bootstrap</li>
-                        <li>jQuery</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <div id="tools">
-                    <p id="p-tools">Tools</p>
-                </div>
+             
             </section>
-
         </div>
+        <footer>
+            <div class="footer-down">
+                <h1 id="contact">Get in touch</h1>
+                <p class="p-footer">Do you have any project that matches my skill set?Let's work together!</p>
+                <div>
+                    <p class="contact"><label for="phone" id="phone">Phone</label> <span>+256(0) 700788462/+256(0) 779617762</span> </p>
+                    <p class="contact"><label for="email" id="email">Email</label> olilitimothy27@gmail.com</p>
+                </div>
+            </div>
+            
+        </footer>
+        <div class="footer-footer"><p>Copyright &copy; 2020 Timothy Olili. All Rights Reserved - Uganda </p> </div>
     </div>
 </body>
 </html>
