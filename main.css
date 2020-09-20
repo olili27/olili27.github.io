@@ -9,7 +9,9 @@
   margin: 0;
   color: var(--color-text-primary);
 }
-
+a{
+  color: cadetblue;
+}
 a:hover {
   cursor: pointer;
 }
@@ -43,8 +45,8 @@ body {
   list-style: none;
   display: inline-flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
-  width: 60%;
+  justify-content: center;
+  width: 100%;
   margin: 0;
   height: 100%;
 }
@@ -60,8 +62,8 @@ body {
   align-items: center;
 }
 
-.nav-bar > div > ul > li:hover {
-  border-bottom: 6px solid red;
+.nav-bar > div > ul > li:hover, #active {
+  border-bottom: 6px solid cadetblue;
 }
 
 .dropdown ul {
@@ -117,6 +119,20 @@ body {
   min-height: 30rem;
 }
 
+.picture{
+  line-height: 5rem;
+}
+
+.picture>h2{
+  font-size: 45px;
+}
+
+.summary{
+  min-width: 660px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .bio {
   background-color: var(--color-bg);
   padding: 1rem;
@@ -125,6 +141,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* end landing */
+
+/* start biography */
 
 .bio > div {
   width: 60%;
@@ -165,7 +185,7 @@ body {
 
 .contact > div > div {
   max-width: 20rem;
-  flex-wrap: wrap;
+  
   /* flex: 11rem; */
 }
 
@@ -175,7 +195,7 @@ body {
 
 form > div {
   margin: 1rem 0;
-}
+} 
 
 input,
 textarea,
