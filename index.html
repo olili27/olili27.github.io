@@ -10,78 +10,96 @@
     <div class="wrapper">
       <nav class="nav-bar">
         <div>
-          <div>
-            <!-- <span> Timothy Olili </span> -->
-          </div>
           <ul>
-            <li id="active"><a >Home</a></li>
-            <li><a>Bio</a></li>
-            <li class="dropdown">
-                <a class="droplink">Experience</a>
-                <ul>
-                    <li><a>some stuff</a></li>
-                    <li><a>some other stuff</a></li>
-                    <li><a>yet some other stuff</a></li>
-                </ul>
-            </li>
-            <li><a>Skills</a></li>
-            <li><a>Contact me</a></li>
+            <li id="active"><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#p-skills">Skills</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
           </ul>
         </div>
       </nav>
       <div class="landing">
-        <div>
+        <div class="landing-wrapper">
           <div class="picture">
-            <h2>Timothy Olili</h2>
-            <img src="me.jpg" alt="Olili Timothy" style="width: 350px; border-radius: 5px;">
+            <h2 style="justify-content: center;">Bio Data</h2>
+            <img src="me.jpg" alt="Olili Timothy" >
           </div>
-          <div class="summary" style="margin-left: 2rem;" >
-            <h1 style="font-size: 30px;">Hello,</h1>
-            <p>I am an aspiring software developer particulary desiring to
-            specialise in full-stack development. currently still a student
-            at Mbarara University of ScienceTechnology(MUST) which I joined
-            in the academic year 2019/2020. At MUSam under the Faculty of
-            Applied Sciences and Technology(Fundertaking a Bachelor's
-            Degree in Computer Engineering. I been involved in quite a
-            number of faculty projects enabling meequiped with vast hands
-            on experince along with scriptingprogramming languages (as you will see
-            below) .</p>
+          <div class="summary" >
+            <div class="summary-contents">
+              <p class=""><label for="name" class="age">Name:</label> Timothy Olili</p>
+              <p class="contact"><label for="age" class="age">Age:</label> 21 years</p>
+              <p class="contact"><label for="phone" class="contact" >Phone:</label> <span>+256(0) 700788462 or +256(0) 779617762</span> </p>
+              <p class="contact"><label for="email" class="contact">Email:</label> olilitimothy27@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
       <div id="bio" class="bio">
         <div>
-          <h2>More about me</h2>
+          <h2 id="about-me">More about me</h2>
           <p>
             I am an aspiring software developer particulary desiring to
             specialise in full-stack development. I am currently still a student
-            at Mbarara University of Science and Technology(MUST) which I joined
-            in the academic year 2019/2020. At MUST, I am under the Faculty of
-            Applied Sciences and Technology(FAST) undertaking a Bachelor's
-            Degree in Computer Engineering. I have been involved in quite a
+            at <strong><em>Mbarara University of Science and Technology</em></strong> (MUST) which I joined
+            in the academic year 2019/2020. At MUST, I am under the <em>Faculty of
+              Applied Sciences and Technology</em>(FAST) undertaking a <small>Bachelor's
+                Degree in Computer Engineering</small>. I have been involved in quite a
             number of faculty projects enabling me get equiped with vast hands
-            on experince along with scripting and programming languages (see
+            on experince along with scripting and programming languages (as you will see
             below) .
           </p>
         </div>
       </div>
-      <div class="experience"></div>
-      <div class="skills"></div>
+      <div class="skills">
+        <div class="skills-content">
+          <p id="p-skills">skills and some tools/frameworks I work with</p>
+          <div class="sub-skills">
+              <p class="skills-header">Back-end</p> 
+              <ul>
+                  <li class="list-item">Django</li>
+                  <li class="list-item">Flask</li>
+                  <li class="list-item">FastAPI</li>
+                  <li class="list-item">Sping-boot</li>
+              </ul>
+          </div>
+          
+          <div class="sub-skills">
+              <p class="skills-header">Front-end</p>
+              <ul>
+                  <li class="list-item">HTML5</li>
+                  <li class="list-item">CSS3</li>
+                  <li class="list-item">ReactJS</li>
+                  <li class="list-item">AngularJS</li>
+                  <li class="list-item">Bootstrap</li>
+                  <li class="list-item">jQuery</li>
+                  <li class="list-item">JavaScript</li>
+              </ul>
+          </div>
+          <div class="sub-skills">
+              <p class="skills-header">Tools</p>
+              <ul>
+                  <li class="list-item">Git</li>
+                  <li class="list-item">GitHub</li>
+                  <li class="list-item">Arduino Board</li>
+              </ul>
+          </div>
+      </div>
+      </div>
       <div class="contact">
         <div>
             <div>
                 <form action="/" method="GET">
                   <div>
-                    <h4 style="color: #f0ffff; font-size: 35px;">Please reach out</h4>
-                    <p style="margin-left: 0.5rem; font-style: italic; font-size: 20px; color: cadetblue;">Do you have any project that matches my skill set?Let's work together!</p>
+                    <h4 style="color: #f0ffff; font-size: 35px;" id="contact-me">Please reach out</h4>
+                    <p style="font-style: italic; font-size: 20px; color: cadetblue;">Do you have any project that matches my skill set?Let's work together!</p>
                   </div>
-                  <div>
+                  <div class="input-text">
                       <input type="text" placeholder="First name" />
                       <input type="text" placeholder="Last name" />
                   </div>
-                  <div>
-                      <input type="text" placeholder="Email" />
-                      <input type="text" placeholder="Phone" />
+                  <div class="input-text">
+                      <input type="email" placeholder="Email" />
+                      <input type="tel" placeholder="Phone" />
                   </div>
                   <div>
                       <textarea placeholder="Message"></textarea>
@@ -94,7 +112,7 @@
         </div>
       </div>
       <div class="footer">
-        <p>Olili Timothy &copy;2020. All rights reserved.</p>
+        <div><p>Olili Timothy &copy;2020. All rights reserved.</p></div>
       </div>
     </div>
   </body>
