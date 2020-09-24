@@ -40,7 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 0;
   min-width: 70%;
   margin: 0 auto;
   height: 3rem;
@@ -51,8 +51,8 @@ body {
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 80%;
-  margin: 5px;
+  width: 100%;
+  margin: 0;
   height: 80%;
 }
 
@@ -308,7 +308,7 @@ textarea {
   }
 
   .summary{
-    min-width: 200px;
+    min-width: 250px;
     display: block;
     line-height: 1rem;
     margin: 0 auto;
@@ -357,6 +357,9 @@ textarea {
     line-height: 80%;
     /* display: inline-block; */
     align-items: center;
+  }
+  .nav-bar > div > ul > li > a{
+    font-size: 20px;
   }
 }
 
