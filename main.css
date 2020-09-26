@@ -361,6 +361,9 @@ textarea {
   .nav-bar > div > ul > li > a{
     font-size: 20px;
   }
+  .footer{
+    font-size: 16px;
+  }
 }
 
 }
