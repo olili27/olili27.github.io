@@ -38,11 +38,11 @@ body {
 }
 
 .nav-bar > div {
-  /* display: flex; */
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   align-items: center;
   padding: 0;
-  /* min-width: 90%; */
+  width: 100%;
   margin: 0 auto;
   height: 3rem;
   /* position: relative; */
@@ -69,12 +69,14 @@ body {
   /* width: 100%; */
   margin-right: 0;
   height: 80%;
+  
 }
 
 .nav-bar div ul li{
   padding: 10px;
   display: inline-flex;
   margin: 1rem 3rem 0 auto;
+  /* background: #fff; */
 }
 
 .nav-bar > div > ul > li > a {
@@ -304,10 +306,10 @@ textarea {
   }
 
   .nav-bar div .menu .fas{
-    display: block;
+    /* display: block; */
     position: absolute;
     top:20px;
-    width: 100px;
+    /* width: 200px; */
     left: 200px;
   }
 
@@ -316,12 +318,13 @@ textarea {
   }
 
 
-.wrapper .nav-bar div .menu:hover .drop-down {
+.wrapper .nav-bar div .menu:hover .drop-down{
   position: absolute;
   display: block;
   /* justify-content: center; */
   width: 100%;
   height: 100%;
+  /* background: #fff; */
 }
 
   .landing > .landing-wrapper {
