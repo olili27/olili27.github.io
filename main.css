@@ -10,6 +10,11 @@
   color: var(--color-text-primary);
   box-sizing: border-box;
 }
+
+title {
+  display: none;
+}
+
 li {
   list-style: none;
 }
