@@ -247,7 +247,9 @@ span{
 }
 
 .contact > div > div {
-  max-width: 20rem;
+  min-width: 20rem;
+  /* background-color: green; */
+
 }
 
 .contact * {
@@ -257,6 +259,13 @@ span{
 form > div {
   margin: 1rem 0;
 } 
+
+#reach-out{
+  /* background-color:red; */
+  min-width:100%;
+  min-height:5rem ;
+  padding: 1rem;
+}
 
 input,
 textarea,
@@ -270,11 +279,11 @@ input:focus {
   border-radius: 0.25rem;
   color: var(--color-bg) !important;
   outline: none;
-  width: 9rem;
+  width: 15rem;
 }
 
 textarea {
-  width: 19rem;
+  width: 100%;
 }
 
 [type="submit"] {
@@ -384,7 +393,13 @@ textarea {
 }
 
   textarea {
-  width: 18rem;
+    margin: auto;
+    width: 90%;
+  }
+
+  [type="submit"] {
+    margin: auto;
+    width: 90%;
   }
 }
 
