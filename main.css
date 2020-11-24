@@ -27,6 +27,7 @@ a:hover {
 }
 
 body {
+  overflow-x: none;
   padding: 0;
   background-color: var(--color-bg);
 }
@@ -247,8 +248,6 @@ span{
 
 .contact > div > div {
   min-width: 20rem;
-  /* background-color: green; */
-
 }
 
 .contact * {
@@ -260,7 +259,6 @@ form > div {
 } 
 
 #reach-out{
-  /* background-color:red; */
   min-width:100%;
   min-height:5rem ;
   padding: 1rem;
@@ -323,10 +321,8 @@ textarea {
   }
 
   .nav-bar div .menu .fas{
-    /* display: block; */
     position: absolute;
     top:20px;
-    /* width: 200px; */
     left: 200px;
   }
 
@@ -398,7 +394,7 @@ textarea {
 
 @media (max-width:390px){
 
-  .nav-bar > div > ul {
+  /* .nav-bar > div > ul {
     /* display: inline-flex; */
     /* flex-flow: row wrap; */
     /* justify-content: center; */
@@ -416,7 +412,7 @@ textarea {
   }
   .nav-bar > div > ul > li > a{
     font-size: 20px;
-  }
+  } */
   .footer{
     font-size: 16px;
   }
