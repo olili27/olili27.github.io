@@ -27,7 +27,7 @@ a:hover {
 }
 
 body {
-  overflow-x: none;
+  /* overflow-x: hidden; */
   padding: 0;
   background-color: var(--color-bg);
 }
@@ -258,11 +258,31 @@ form > div {
   margin: 1rem 0;
 } 
 
-#reach-out{
+#reachout{
   min-width:100%;
   min-height:5rem ;
   padding: 1rem;
 }
+
+#contact {
+  text-align: center;
+  /* padding:5rem; */
+}
+
+#reach-out{
+  margin:2rem;
+  /* margin-top:6rem; */
+}
+
+#reach-out a{
+  margin: 2rem;
+}
+
+#reach-out a i{
+  font-size:3rem;
+  color:#fff;
+}
+
 
 input,
 textarea,
@@ -318,6 +338,10 @@ textarea {
 
   *{
     display: block;
+  }
+
+  body{
+    overflow-x: hidden;
   }
 
   .nav-bar div .menu .fas{
