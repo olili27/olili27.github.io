@@ -342,6 +342,7 @@ textarea {
   min-height: 1rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   color: var(--color-bg);
   font-size: 0.6rem;
