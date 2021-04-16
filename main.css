@@ -206,6 +206,9 @@ span{
 /* end biography */
 
 /* start skills */
+.skills{
+  text-align: center;
+}
 
 .skills-content{
   padding:20px ; 
@@ -219,9 +222,26 @@ span{
   color: cadetblue;
   font-size: 20px;
   font-weight: 600;
+  margin: 1.5rem 0 0.5rem 0;
 }
 .sub-skills{
   padding: 10px;
+}
+
+.listgroup{
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
+}
+
+.list-item{
+  margin: 10px 50;
+  padding: 0.5rem;
+  /* background-color: black; */
+}
+
+.fab{
+  font-size: 2.5rem;
 }
 
 /* end skills */
@@ -324,7 +344,7 @@ textarea {
   justify-content: center;
   align-items: center;
   color: var(--color-bg);
-  font-size: 0.85rem;
+  font-size: 0.6rem;
 }
 
 .footer * {
@@ -418,7 +438,7 @@ textarea {
 
 @media (max-width:390px){
 
-  /* .nav-bar > div > ul {
+   .nav-bar > div > ul {
     /* display: inline-flex; */
     /* flex-flow: row wrap; */
     /* justify-content: center; */
@@ -438,6 +458,6 @@ textarea {
     font-size: 20px;
   } */
   .footer{
-    font-size: 16px;
+    font-size: 8px;
   }
 }
